@@ -7,8 +7,16 @@ int main(void)
 	int number;
 
 	printf("Enter a positive decimal number: "); scanf("%d", &number);
+	
+	if(number>=0)
+	{
 
-	convert(number);
+	
+		convert(number);
+	}
+
+	else 
+		printf("\nPlease enter a positive number!!!!\n");
 
 	return 0;
 }
