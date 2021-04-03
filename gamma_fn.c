@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-//program that explains about gamma functions
+//program that explains about gamma functions using recursion:
 
 int gma_f(int);
 

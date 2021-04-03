@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-//program to print values of gamma functions for a particular number
+//program to print values of gamma functions for a particular number using recursions
 
 int gamma_f(int n);
 
