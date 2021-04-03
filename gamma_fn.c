@@ -17,7 +17,7 @@ int main(void)
 
 int gma_f(int n)
 {
-	if(n == 1)
+	if(n == 1) // base condition
 	{
 		printf("gamma(%d) = %d", n, n);
 		return 0;

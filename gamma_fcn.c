@@ -21,7 +21,7 @@ int main(void)
 int gamma_f(int n)
 {
 
-	if(n == 1)
+	if(n == 1) // base condition
 	{
 		return 1;
 	}
