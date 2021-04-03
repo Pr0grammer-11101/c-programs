@@ -6,3 +6,7 @@
 
 *.swp
 *.c~
+
+#also ignore executable files
+
+a.exe

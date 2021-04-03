@@ -21,4 +21,8 @@ int gma_f(int n)
 		return 0;
 	}
 
-	printf("
+	
+	printf("gamma(%d) = %d*gamma(%d)\n", n, n-1, n-1);
+
+	gma_f(n-1);
+}
