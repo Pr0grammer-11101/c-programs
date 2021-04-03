@@ -1,0 +1,8 @@
+# don't track these files
+
+*.un~
+
+#also ignore these files
+
+*.swp
+*.c~
