@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+//program that explains about gamma functions
+
 int gma_f(int);
 
 int main(void)

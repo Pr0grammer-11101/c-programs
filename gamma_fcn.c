@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+//program to print values of gamma functions for a particular number
+
 int gamma_f(int n);
 
 int main(void)
