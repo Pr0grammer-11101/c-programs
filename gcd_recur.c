@@ -18,7 +18,7 @@ int hcf(int _1, int _2, int i)
 {
 	
 
-	if(i==0)
+	if(i==0) // base condition
 	{
 		printf("%d", 1);
 		return 0;
