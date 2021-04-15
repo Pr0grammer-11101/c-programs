@@ -43,5 +43,5 @@ int divisible(int n, int s)
 
 	s+=n%10; // adding the last digit
 
-	divisible(n/10, s); //calling divisible with first digit as argument
+	divisible(n/10, s); //calling divisible() with first digit as argument
 }
