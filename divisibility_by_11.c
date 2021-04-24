@@ -8,7 +8,7 @@ int divisible(int, int, int, int);
 
 int main(void)
 {
-	int number, sum=1;
+	int number, sum=1; // sum actually counts the number of digits in the number and doesn't add them
 	printf("Enter a number: ");
 	scanf("%d", &number);
 
