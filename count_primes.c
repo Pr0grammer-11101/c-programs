@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int check_primes(int, int ,int);
+int check_primes(int, int ,int); //recursive function
 
 int main(void)
 {
