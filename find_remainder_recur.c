@@ -2,7 +2,7 @@
 
 int find_remainders(int, int, int, int, int);
 
-//CODE NEEDS MORE WORKING
+
 
 int main(void)
 {
@@ -18,14 +18,14 @@ int main(void)
 
 int find_remainders(int a, int b, int temp, int remnder, int quotient)
 {
-	if(temp == a)
+	if(temp == a) // base condition 1
 	{
 		printf("The quotient is: %d\n", quotient);
 		printf("The remainder is: %d\n", remnder);
 		return 0;
 	}
 
-	if(temp > (a-b) && temp < a)
+	if(temp > (a-b) && temp < a) // base condition 2
 	{
 		printf("The quotient is: %d\n", quotient);
 		printf("The remainder is: %d\n", remnder);
