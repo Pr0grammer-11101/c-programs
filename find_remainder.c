@@ -20,7 +20,7 @@ int main(void)
 
 int remainder_num(int a, int b)
 {
-	int temp=0, remainder, quotient=0;
+	int temp=0, remnder, quotient=0;
 	while(1)
 	{
 		if(temp == a)
@@ -36,14 +36,14 @@ int remainder_num(int a, int b)
 		{
 			temp += b;
 			quotient++;
-			remainder = a-temp;
+			remnder = a-temp;
 		}
 
 
 
 	}
 
-	printf("The quotient is %d and the remainder is %d\n", quotient, remainder);
+	printf("The quotient is %d and the remainder is %d\n", quotient, remnder);
 
 	return 0;
 }
