@@ -6,6 +6,7 @@ int print_pattern(int, int);
  * 12
  * 123
  * 1234
+ * and so on....
  */
 
 int main(void)
