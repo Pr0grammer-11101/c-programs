@@ -1,21 +1,26 @@
 #include<stdio.h>
 
+
+
 int main(void)
 {
 	int num, size;
-
+	
 	printf("How many triangles?");
 	scanf("%d", &num);
-	size=num*3;
+	size = num*3;
 
-	int sides[size], i=0;
+	int triangles[size];
+	
+	printf("Enter the sides into the triangles:\n");
+	int i=0, repeat=0;
 
-	while(i<size)
+	while(repeat<num)
 	{
-		scanf("%d", &sides[i]);
+		printf("Triangle %d\n");
 
-		i++;
-	}
+		while(i<size)
+
 
 	return 0;
 }
