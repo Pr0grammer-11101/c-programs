@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-//THE CODE IS INCOMPLETE!!!
 
 int LSearch(int[], int, int);
 
