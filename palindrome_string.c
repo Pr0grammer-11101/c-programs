@@ -13,12 +13,7 @@ int main(void)
 
 	scanf("%s", &str);
 
-	// while(i<length)
-	// {
-	// 	scanf("%c ", &str[i]);
-	// 	i++;
-	// }
-
+	
 	j=0, i=length-1;
 
 	while(i>=0)
