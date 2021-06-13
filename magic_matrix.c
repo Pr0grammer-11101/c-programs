@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// CREDIT: https://www.youtube.com/watch?v=GYBr8n-_Rq4
+
 void main()
 {
 	int a[30][30], count=0, square, n, i, j, num=1, sum;
