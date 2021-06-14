@@ -17,7 +17,7 @@ int main(void)
 
 int divide(int n1, int n2)
 {
-	int quotient=0, count=0, temp;
+	int quotient=0, count=0;
 
 	while(!0)
 	{
