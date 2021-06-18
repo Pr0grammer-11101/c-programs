@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int a[30], size, i, j, large, index, b[30], k=0, count=1;
+	int a[30], size, i, j, large, b[30], k=0, count=1;
 	
 	printf("Enter the size of the array: ");
 	scanf("%d", &size);
