@@ -37,7 +37,7 @@ int sort_row_wise(int s)
 	
 	printf("Sorting the matrix row wise..\n\n");
 	
-	int m, n, temp, small=a[0][0], index;
+	int m, temp;
 	
 	i=0, m=0;
 	// sorting using bubble sort
