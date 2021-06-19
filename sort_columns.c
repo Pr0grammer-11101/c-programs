@@ -18,7 +18,7 @@ int main(void)
 
 int sort_column_wise(int s)
 {
-	int i, j, temp;
+	int i, j, temp, a[30][30];
 	
 	printf("Enter elements into the matrix:\n\n");
 	
@@ -35,7 +35,7 @@ int sort_column_wise(int s)
 		i++;
 	}
 	
-	int m, temp;
+	int m;
 	
 	m=0;
 	
@@ -45,13 +45,13 @@ int sort_column_wise(int s)
 		while(i<s)
 		{
 			j=0;
-			while(j<s)
+			while(j<s-1)
 			{
 				if(a[j][i]>a[j+1][i])
 				{
 					temp=a[j][i];
 					a[j][i]=a[j+1][i];
-					a[j+1]=temp;
+					a[j+1][i]=temp;
 				}
 				
 				j++;
