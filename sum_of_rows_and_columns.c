@@ -55,7 +55,7 @@ int sum_of_rows_columns(int a[][30], int r, int c, int sr, int sc)
 	c+=1;
 
 	i=0;
-	while(i<c)
+	while(i<c) // sum of columns
 	{
 		j=0;
 		while(j<r)
