@@ -2,6 +2,8 @@
 
 // CREDIT: https://www.youtube.com/watch?v=GYBr8n-_Rq4
 
+//Program to print magic matrix
+
 void main()
 {
 	int a[30][30], count=0, square, n, i, j, num=1, sum;
