@@ -65,19 +65,25 @@ int print_spiral(int r, int c)
 		// </last_column>
 
 		// <last_row>
-		for(i=last_col; i>=l; i--)
+		if(k<=last_row)
 		{
-			printf("%d\n", a[last_row][i]);
+			for(i=last_col; i>=l; i--)
+			{
+				printf("%d\n", a[last_row][i]);
+			}
+			last_row--;
 		}
-		last_row--;
 		// </last_row>
 
 		// <first_column>
-		for(i=last_row; i>=k; i--)
+		if(l<=last_col)
 		{
-			printf("%d\n", a[i][l]);
+			for(i=last_row; i>=k; i--)
+			{
+				printf("%d\n", a[i][l]);
+			}
+			l++;
 		}
-		l++;
 		// </first_column>
 
 	}
